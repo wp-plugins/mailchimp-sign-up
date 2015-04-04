@@ -1,0 +1,93 @@
+.mcForm{ display: table;}
+.mcForm input[type=submit],
+.mcForm input[type=button] {
+    background: #777;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    margin:0px;
+    padding: 5px 10px;
+    display:inline-block;
+    float:left;
+}
+.mcForm input{font-size: inherit;}
+.mcForm input[type=text] {
+    padding: 6px; 
+    margin:0px;
+    text-indent: 6px; 
+    border:0;
+    float:left;
+}
+
+#mcs_result {
+    background: #fff;
+    position: absolute;
+    padding: 15px;
+    color: #777;
+    display: none;
+    box-shadow: 0 0 4px -2px #000;
+    z-index: 999;
+    border: 1px solid #777;
+}
+#mcs_close{
+position: absolute;
+right:10px;
+top: 5px;
+color: #777;
+}
+
+
+/* Admin Styles */
+
+.mcs_style_picker{float:left; margin:10px 10px 10px 0px;}
+#mcs_style_editor{
+background:#ffffff;
+border:#D6D6D6 solid 1px;
+max-width:500px;  
+padding:20px;  
+}
+
+#mcs_style_editor label{
+ display:block;
+  font-size:12px;
+  margin-bottom:10px;
+}
+
+#mcs_listToggle span {
+    cursor: pointer;
+    font-style: italic;
+    color: #52A2DA;
+}
+
+.mcs_group:before,
+.mcs_group:after {
+    content: "";
+    display: table;
+} 
+.mcs_group:after {
+    clear: both;
+}
+.mcs_group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+@media screen and (min-width: 775px) {
+   .mcs-donate-btn{
+position:fixed; right:50px; top:100px;
+background:#ffffff;
+border:#AAAAAA solid 1px;
+padding:20px; 
+border-radius:10px; 
+box-shadow:0px 0px 10px -5px #222222;      
+}
+
+}
+   .mcs-donate-btn{
+max-width:275px;
+margin:30px auto 30px auto;    
+background:#ffffff;
+border:#AAAAAA solid 1px;
+padding:20px; 
+border-radius:10px; 
+box-shadow:0px 0px 10px -5px #222222;  
+}
+.mcs-donate-btn h4{ margin:0px 0px 20px 0px; font-size:1.6em;}
